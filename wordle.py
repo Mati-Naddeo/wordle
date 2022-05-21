@@ -10,7 +10,7 @@ intentos = 0
 palabra = (random.choice(lista))
 print("La palabra tiene ", len(palabra), " letras." )
 posIntentos = int(input("Ingrese la cantidad de intentos: "))
-tiempo = int(input("Ingrese el tiempo: "))
+tiempo = int(input("Ingrese el tiempo en segundos: "))
 
 def una_funcion():
     print("\nSe acabó el tiempo")
